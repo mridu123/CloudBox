@@ -1,0 +1,26 @@
+2 ways of creating table
+
+using wiizard in the left column (create table)
+or though command using the execute statement command
+
+
+when we are making the table using the wizard
+the following steps are done to get the structure code of table
+
+
+right click->> grab structure 
+(register.grab)(my documents)
+right click-->> recreate table
+(edit table script) -->> copy paste the code into the execute command
+
+
+
+to get the my sql jar folder in the libraries folder of project
+we go to
+C:\Program Files (x86)\NetBeans 7.3\ide\modules\ext
+here the mysql jar file is there
+copy it somewhere
+and then right click on libraries and add jar file and select the file we copied
+
+
+mysql, orace all have dffrnt jar files(classes). while downloading we need configure them in runtime emvironmnt.

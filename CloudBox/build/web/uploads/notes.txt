@@ -1,0 +1,10 @@
+R.nageshwar Rao
+
+read JDBC connectivity
+
+
+
+
+
+
+php--directly interpreted so changes made are fast. unlike java which needs to be compiled each time changes are made in it. netbeans 7.0 and above are provide the facility that on doing CTR+S the server is restarted(deployment accurs) which compiles the servlet which is changed and makes the new class file.

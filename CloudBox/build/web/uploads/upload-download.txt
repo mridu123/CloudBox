@@ -1,0 +1,34 @@
+file handling used, concept of reading and writing
+
+multipart attribute used to handle large data
+
+html has file tag which by default gives the browse button
+
+1. read data from client side and save it at server
+
+
+O'Rielly files or apache server files(pre-defined) are to get the  ease the file uploading and downloading
+
+
+to use any library, we have to put the jar files in the WEB-INF folder (which is the local folder of our project)
+all libraries reference are looked for in the web inf folder
+
+to write a file on server we need to get the path of the location where the file is to be saved
+
+
+context is global and to get it's reference we use the context methods
+
+
+
+4 MANDATORY COLUMNS IN DB TO SAVE A FILE IN IT
+
+blob-->>7-8 mb
+large blob-->>30mb
+this is the type of coloumn in DB to save file in DB
+
+file size is obtained in long, so it's saved in the long or can be saved in string type as well
+
+mime type
+
+file name
+

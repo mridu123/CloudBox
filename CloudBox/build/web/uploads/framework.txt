@@ -1,0 +1,36 @@
+to add framework to existing project
+
+projct--properties--framework--add--struts--add tcls
+
+
+
+
+struts-->action class-> servlet-->controller
+
+URL provided in the configuration file unlike the response.send redirect or dispatcher ==>stutsconfig.xml
+(url need not be changed in the java cod and chnges are made in the config file, here, independent modules are made which are decoupled with each other)
+
+action is a predefined servlet action servlet
+
+now in struts we will make action servlet instead of http servlet
+
+it has a execute method by default(which is similar to doFilter of the filter)
+attributes are passed here==> (ActionMapping mappinf,ActionForm form,Request,Response)
+i.e. objects of actions maping,action form, request and response are passed
+
+execute method is of the type Actionform
+
+
+till now we had
+view==>>http servlet==>>which is redirected to success or error page
+
+
+now we will have in struts
+view==>action servlet==>>stustconfig.xml(for success or error url) and from there it will be forwarded to ==>>success page or error page
+
+normally bean class is used for storing data
+here there is a form bean which is used to validate
+and it has getter setter methods which extracts the parameters
+
+(for a flow diagram look in notes)
+
