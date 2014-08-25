@@ -8,9 +8,18 @@ To run the application on your local machine
 
 Install
 1. JDK7
+
+
 2. Netbeans 7.3
+
+
 3. Glassfish Server 3.1.2
+
+
 4. compile time library:  mysql-connector-java-5.1.18-bin.jar
+
+
+
 
 
 5. The Database Queries that need to be run are:
